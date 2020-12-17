@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 8-56290025169b
+Exec   : topoSet
+Date   : Dec 16 2020
+Time   : 17:47:55
+Host   : "chaitanya-VirtualBox"
+PID    : 5419
+I/O    : uncollated
+Case   : /home/chaitanya/OpenFOAM/chaitanya8/smallPoolFire3D_expt
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading topoSetDict
+
+Time = 0
+    mesh not changed.
+Created faceSet f1
+    Applying source boxToFace
+    Adding faces with centre within boxes 1((-0.5 -0.001 -0.5) (0.5 0.005 0.5))
+    faceSet f1 now size 3600
+Created faceSet f0
+    Applying source boxToFace
+    Adding faces with centre within boxes 1((-0.5 -0.001 -0.1) (0.5 0.005 0.1))
+    faceSet f0 now size 720
+End
+

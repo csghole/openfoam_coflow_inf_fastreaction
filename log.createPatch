@@ -1,0 +1,53 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 8-56290025169b
+Exec   : createPatch -overwrite
+Date   : Dec 16 2020
+Time   : 17:47:55
+Host   : "chaitanya-VirtualBox"
+PID    : 5420
+I/O    : uncollated
+Case   : /home/chaitanya/OpenFOAM/chaitanya8/smallPoolFire3D_expt
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading createPatchDict
+
+Adding new patch air_inlet as patch 3 from 
+{
+    type            patch;
+}
+
+Adding new patch inlet as patch 4 from 
+{
+    type            patch;
+}
+
+
+Read 3600 faces from faceSet f1
+Read 720 faces from faceSet f0
+
+Doing topology modification to order faces.
+
+Not synchronising points.
+
+Removing patches with no faces in them.
+
+Removing zero-sized patch base type patch at position 0
+Removing patches.
+Writing repatched mesh to 0
+
+End
+
